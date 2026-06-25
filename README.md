@@ -1,75 +1,43 @@
-# 📊 Executive Sales Tracking Dashboard
+# 📊 Executive Sales Tracking Dashboard (Excel)
 
 ## Overview
-
-The Executive Sales Tracking Dashboard is an interactive Excel dashboard designed to monitor and evaluate the performance of sales executives across multiple cities. It provides key performance metrics such as total sales, target achievement percentage, and gap-to-target analysis, helping businesses track employee performance and make data-driven decisions.
+An interactive Excel dashboard built to track and analyze the daily sales performance of **141 sales executives** across **8 regions** (Chennai, Delhi, Mumbai, Nagpur, Patna, Pune, Ranchi, Surat). The dashboard consolidates 5-day sales data per executive against a fixed target of 500 units, and surfaces performance through linked tables, charts, and region-wise toggle views.
 
 ## Features
-
-- 🌍 City-wise performance filtering
-- 👨‍💼 Sales Executive performance analysis
-- 📈 Total Sales tracking
-- 🎯 Target Achievement (%) monitoring
-- 📉 Away From Target (%) analysis
-- 📊 Interactive charts and visualizations
-- 🎛️ Dashboard navigation using filters and selectors
-
-## Key Metrics
-
-### Dashboard 1 – Total Sales Analysis
-- Displays total sales achieved by each sales executive.
-- Highlights top-performing sales representatives.
-
-### Dashboard 2 – Sales Comparison
-- Compares sales performance among executives.
-- Helps identify consistent performers.
-
-### Dashboard 3 – Target Hit Analysis
-- Shows percentage of target achieved by executives.
-- Tracks progress toward sales goals.
-
-### Dashboard 4 – Away From Target Analysis
-- Measures how far executives are from their targets.
-- Helps identify areas requiring improvement.
+- **Region-wise toggle filters** — Chennai, Delhi, Mumbai, Nagpur, Patna, Pune, Ranchi, Surat
+- **4 linked mini-dashboards**: Total Sales by Executive, Target Hit %, Away-From-Target %, and ranked performance views
+- **Visualizations**: horizontal bar chart (top performers), pie chart (sales share by executive group), and trend line chart (target-hit % movement across executives)
+- Sortable/filterable tables for Sales Executive, Total Sales, Target Hit %, and Away From Target %
 
 ## Tools Used
-
 - Microsoft Excel
-- Pivot Tables
-- Pivot Charts
-- Slicers
-- Data Visualization
-- Dashboard Design Techniques
+- Pivot Tables & linked summary tables
+- Conditional formatting
+- Data visualization (bar, pie, line charts)
+- Custom toggle buttons for region-based filtering
 
-## Dataset Information
+## Key Insights (calculated from the dataset)
+- Out of 141 sales executives, the **overall target achievement rate was 55.2%** (38,945 total units sold against a combined target of 70,500).
+- **Not a single executive hit 100% of their target**; only **17 executives (12.1%)** crossed the 70% mark.
+- **50 executives (35.5%)** fell below 50% of their target, highlighting a significant underperformance segment.
+- **Top performer:** Jagdish Chandra (Surat) — 389 units sold, 77.8% of target, the highest in the dataset.
+- **Nagpur was the best-performing region** with an average target-hit rate of 58.2%, while **Ranchi was the weakest** at 50.5%.
+- Day-wise analysis showed **Day 4 was the strongest day** (avg. 56.9 units/executive) and **Day 3 & Day 5 were the weakest** (avg. 53.4 units/executive).
 
-The dataset includes:
+## How to Use
+1. Download the Excel file.
+2. Open it in Microsoft Excel and go to the **DASHBOARD** sheet.
+3. Click on a **region button** (e.g., Nagpur, Surat) to filter the dashboards to that region.
+4. Use the 4 linked tables to compare Sales Executives by Total Sales, Target Hit %, and Away-From-Target %.
+5. Refer to the **RAW DATA** sheet for the full 141-record dataset.
 
-- Sales Executive Name
-- City
-- Sales Records
-- Sales Targets
-- Target Achievement Percentage
-- Performance Metrics
-
-## Business Insights
-
-- Identify top-performing sales executives.
-- Monitor target achievement rates.
-- Compare performance across cities.
-- Detect underperforming regions or employees.
-- Support strategic sales planning and decision-making.
-
-## Skills Demonstrated
-
-- Data Cleaning
-- Data Analysis
-- KPI Tracking
-- Dashboard Development
-- Data Visualization
-- Business Intelligence Reporting
-- Excel Automation
+## Learning Outcomes
+Through this project, I gained hands-on experience in:
+- Building linked, filterable dashboards in Excel
+- Conditional formatting and target-vs-actual performance tracking
+- Region-wise and executive-wise performance comparison
+- Data visualization using bar, pie, and trend charts
+- Drawing actionable insights from raw sales data (140+ records)
 
 ## Author
-
 **Sanjana Malki**
